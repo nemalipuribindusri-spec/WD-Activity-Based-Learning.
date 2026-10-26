@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: floralwhite;
+    color: saddlebrown;
+    text-align: center;
+}
+
+header {
+    background-color: lightpink;
+    padding: 20px;
+}
+
+header h1 {
+    color: darkred;
+}
+
+nav {
+    background-color: saddlebrown;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    padding: 25px;
+}
+
+h2 {
+    color: darkred;
+}
+
+#home {
+    background-color: mistyrose;
+}
+
+#home h3 {
+    color: crimson;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px pink;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#custom {
+    background-color: lightyellow;
+}
+
+footer {
+    background-color: saddlebrown;
+    color: white;
+    padding: 12px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .card {
+        width: 85%;
+    }
+}

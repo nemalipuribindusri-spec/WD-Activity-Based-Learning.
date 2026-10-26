@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarePlus Hospital</title>
+    <link rel="stylesheet" href="health.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏥 CarePlus Hospital</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#departments">Departments</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#appointment">Appointment</a>
+    </nav>
+
+    <section id="home" class="welcome">
+        <h2>Welcome to CarePlus Hospital</h2>
+        <p>We provide quality healthcare with care, trust and compassion.</p>
+        <p><strong>Emergency Contact:</strong> 108
+            <br>For immediate emergencies, contact local emergency services.
+        </p>
+    </section>
+
+    <section id="departments">
+        <h2>Our Departments</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>Cardiology</h3>
+                <p>Care for heart-related problems.</p>
+            </div>
+
+            <div class="card">
+                <h3>Orthopedics</h3>
+                <p>Treatment for bones and joints.</p>
+            </div>
+
+            <div class="card">
+                <h3>Pediatrics</h3>
+                <p>Healthcare for children.</p>
+            </div>
+
+            <div class="card">
+                <h3>Neurology</h3>
+                <p>Care for brain and nervous system conditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+
+        <div class="container">
+            <div class="card">
+                <h3>Dr. Ravi Kumar</h3>
+                <p>Cardiologist</p>
+                <p>Visiting: 9 AM - 1 PM</p>
+            </div>
+
+            <div class="card">
+                <h3>Dr. Priya Sharma</h3>
+                <p>Pediatrician</p>
+                <p>Visiting: 10 AM - 2 PM</p>
+            </div>
+
+            <div class="card">
+                <h3>Dr. Arjun Rao</h3>
+                <p>Orthopedic Specialist</p>
+                <p>Visiting: 4 PM - 7 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2>Our Facilities</h2>
+        <ul class="facilities">
+            <li>24-hour emergency department</li>
+            <li>Modern operation theatres</li>
+            <li>Diagnostic laboratory</li>
+            <li>Pharmacy</li>
+            <li>Ambulance service</li>
+            <li>Inpatient rooms</li>
+        </ul>
+    </section>
+
+    <section id="hours">
+        <h2>Visiting Hours</h2>
+        <p><strong>General Wards:</strong> 10 AM - 12 PM</p>
+        <p><strong>Evening:</strong> 4 PM - 6 PM</p>
+        <p>Please confirm visiting hours with the hospital.</p>
+    </section>
+
+    <section id="appointment">
+        <h2>Request an Appointment</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   autocomplete="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   autocomplete="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   autocomplete="tel" required>
+
+            <label for="department">Choose Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select a department</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="neurology">Neurology</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="message">Reason for Visit:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Submit Request</button>
+
+        </form>
+
+        <p>For emergencies, do not use this form. Contact emergency services.</p>
+    </section>
+
+    <footer>
+        <p> 2026 CarePlus Hospital. All rights reserved.</p>
+        <p>Example contact: 000-123-4567 | info@example.com</p>
+    </footer>
+
+</body>
+</html>

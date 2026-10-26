@@ -1,0 +1,180 @@
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Navigation */
+nav {
+    background-color: darkgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul {
+    display: inline;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Home Section */
+.home {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.home h1 {
+    color: darkgreen;
+    font-size: 38px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+/* Common Sections */
+.categories,
+.recipes {
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.categories h1,
+.recipes h1 {
+    color: darkgreen;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 240px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card h2 {
+    color: green;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.card a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card:hover {
+    background-color: honeydew;
+}
+
+/* Recipe Section */
+.recipes {
+    background-color: honeydew;
+}
+
+/* Healthy Living */
+.healthy {
+    text-align: center;
+    padding: 55px 20px;
+    background-color: lightgreen;
+}
+
+.healthy h1 {
+    color: darkgreen;
+}
+
+.healthy p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    color: lightgreen;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav h2 {
+        display: block;
+        margin: 0 0 15px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .home h1 {
+        font-size: 29px;
+    }
+
+    .card {
+        width: 85%;
+    }
+}

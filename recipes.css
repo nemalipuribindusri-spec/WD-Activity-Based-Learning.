@@ -1,0 +1,149 @@
+
+/* Recipe Page Header */
+.recipe-header {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.recipe-header h1 {
+    color: darkgreen;
+    font-size: 35px;
+}
+
+.recipe-header p {
+    font-size: 17px;
+}
+/* Navigation */
+nav {
+    background-color: darkgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul {
+    display: inline;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 12px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Recipe Section */
+.recipe-section {
+    background-color: honeydew;
+    padding: 40px 20px;
+}
+
+/* Recipe Container */
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Recipe Cards */
+.recipe-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.recipe-card h2 {
+    color: darkgreen;
+}
+
+.recipe-card h3 {
+    color: green;
+    margin-top: 20px;
+}
+
+.recipe-card p {
+    line-height: 1.6;
+}
+
+.recipe-card ul,
+.recipe-card ol {
+    padding-left: 25px;
+}
+
+.recipe-card li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Recipe Card Hover */
+.recipe-card:hover {
+    background-color: lightyellow;
+}
+
+/* Recipe Message */
+.recipe-message {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.recipe-message h2 {
+    color: darkgreen;
+}
+
+.recipe-message p {
+    line-height: 1.6;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h2 {
+    color: lightgreen;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    .recipe-header h1 {
+        font-size: 27px;
+    }
+
+    .recipe-card {
+        width: 85%;
+    }
+}
